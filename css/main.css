@@ -1,8 +1,10 @@
 :root {
-    --background: #393e46;
-    --border-color: #00adb5;
-    --header-color: #f8b500;
-    --text-color: #ece8d9;
+    --color1: #06141f;
+    --color2: #0f3652;
+    --color3: #f8b500;
+    --color4: #2b9cc9;
+    --color5: #2bc9c8;
+    --color6: #FFFFFF;
 }
 
 html {
@@ -13,28 +15,35 @@ html {
 body {
     max-width: 600px;
     margin: 20px auto 20px auto;
-    border: 2px solid var(--border-color);
+    border: 2px solid var(--color2);
     padding: 5px 5% 5px 5%;
     /* box-shadow: 5px 5px var(--border-color); */
-    color: var(--text-color);
-    background-color: var(--background);
+    color: var(--color6);
+    background-color: var(--color1);
     line-height: 2;
 }
 
 h1, h2 {
-    color: var(--header-color);
+    color: var(--color3);
 }
 
 h3, h4 {
-    color: var(--border-color);
+    color: var(--color4);
 }
 
 .plain a {
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--color5);
 }
 
 a {
     text-decoration: underline;
-    color: var(--text-color);
+    color: var(--color5);
+}
+
+.art {
+    font-size: 11px;
+    white-space: pre;
+    line-height: 12px;
+    color: #fff789;
 }
