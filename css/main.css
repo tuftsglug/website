@@ -1,0 +1,40 @@
+:root {
+    --background: #393e46;
+    --border-color: #00adb5;
+    --header-color: #f8b500;
+    --text-color: #ece8d9;
+}
+
+html {
+    font-family: 'Source Code Pro'; /*'Inter', sans-serif;*/
+    font-size: 20px;
+}
+
+body {
+    max-width: 600px;
+    margin: 20px auto 20px auto;
+    border: 2px solid var(--border-color);
+    padding: 5px 5% 5px 5%;
+    /* box-shadow: 5px 5px var(--border-color); */
+    color: var(--text-color);
+    background-color: var(--background);
+    line-height: 2;
+}
+
+h1, h2 {
+    color: var(--header-color);
+}
+
+h3, h4 {
+    color: var(--border-color);
+}
+
+.plain a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+a {
+    text-decoration: underline;
+    color: var(--text-color);
+}
