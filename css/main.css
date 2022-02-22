@@ -1,19 +1,20 @@
 :root {
-    --color1: #06141f;
-    --color2: #0f3652;
-    --color3: #f8b500;
-    --color4: #2b9cc9;
-    --color5: #2bc9c8;
+    --color1: #172a3a;
+    --color2: #4a98f7;
+    --color3: #65b1fc;
+    --color4: #64e1dc;
+    --color5: #96ebe6;
     --color6: #FFFFFF;
+    --color7: #636978;
 }
 
 html {
-    font-family: 'Source Code Pro'; /*'Inter', sans-serif;*/
-    font-size: 20px;
+    font-family: 'Roboto Mono'; /*'Inter', sans-serif;*/
+    font-size: 18px;
 }
 
 body {
-    max-width: 600px;
+    max-width: 700px;
     margin: 20px auto 20px auto;
     border: 2px solid var(--color2);
     padding: 5px 5% 5px 5%;
