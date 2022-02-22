@@ -2,6 +2,6 @@ name: GNU/Linux User Group
 description: (Unofficial) GNU/Linux club focused on all things Unix and open-source!
 author: Michael Riegert (nobodywasishere)
 url: 
-baseurl: /
+baseurl: 
 
 exclude: []

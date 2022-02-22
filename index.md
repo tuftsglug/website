@@ -13,7 +13,7 @@ dedicated to all things GNU, Linux, BSD, etc. All are welcome, even if you don't
 
 {% if ev.layout == "event" %}
 
-[{{ev.title}}]({{site.baseurl}}{{ev.url}}) - {{ev.evdate | date: "%b %d, %Y"}} @ {{ev.evlocation}}
+[{{ev.title}}]({{ev.url | relative_url}}) - {{ev.evdate | date: "%b %d, %Y"}} @ {{ev.evlocation}}
 
 {% endif %}
 
@@ -25,7 +25,7 @@ dedicated to all things GNU, Linux, BSD, etc. All are welcome, even if you don't
 
 {% if ev.layout == "blog" %}
 
-[{{ev.title}}]({{site.baseurl}}{{ev.url}}) - {{ev.date | date: "%b %d, %Y"}}
+[{{ev.title}}]({{ev.url | relative_url}}) - {{ev.date | date: "%b %d, %Y"}}
 
 {% endif %}
 
