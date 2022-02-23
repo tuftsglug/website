@@ -7,6 +7,7 @@ layout: default
 GNU/Linux User Group is an (unofficial) group at [Tufts University](https://www.tufts.edu/) 
 dedicated to all things GNU, Linux, BSD, etc. All are welcome, even if you don't use Linux!
 
+
 ## Events
 
 {% for ev in site.posts limit: 5 %}
@@ -19,6 +20,9 @@ dedicated to all things GNU, Linux, BSD, etc. All are welcome, even if you don't
 
 {% endfor %}
 
+[All events](events.html)
+
+
 ## Blog
 
 {% for ev in site.posts limit: 5 %}
@@ -30,6 +34,9 @@ dedicated to all things GNU, Linux, BSD, etc. All are welcome, even if you don't
 {% endif %}
 
 {% endfor %}
+
+[All blog posts](blog.html)
+
 
 ## Contact
 
