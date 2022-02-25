@@ -2,7 +2,7 @@
 title: CLI Text Editor Workshop
 layout: event
 evdate: February 27th, 2022
-evtime: 3p-6p
+evtime: 3:30p-6p
 evlocation: Room 265, The Joyce Cummings Center
 ---
 
