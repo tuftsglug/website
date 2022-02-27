@@ -23,3 +23,5 @@ held on February 27th, 2022 in room 265 of the Joyce Cummings Center,
 where you can learn more about command-line
 text editors in a low-pressure, hands-on way. No registration is
 necessary.
+
+The slides are available [here](/assets/2022-02-23-CLIWorkshop.pdf).
