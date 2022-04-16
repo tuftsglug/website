@@ -1,0 +1,4 @@
+[alias]
+    logg = log --reflog --graph --pretty=tformat:'%Cred%h %Cgreen%cd %C(bold blue)%an%Creset%C(yellow)%d%Creset %s' --date=short --all
+[init]
+    defaultBranch = main
