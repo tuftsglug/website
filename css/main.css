@@ -1,5 +1,6 @@
 :root {
     --color1: #172a3a;
+    --color1a: #293c4c;
     --color2: #4a98f7;
     --color3: #65b1fc;
     --color4: #64e1dc;
@@ -47,4 +48,13 @@ a {
     white-space: pre;
     line-height: 12px;
     color: #fff789;
+}
+
+code {
+    border-radius: 5px;
+    padding: 7px;
+    margin: 3px;
+    background-color: var(--color1a);
+    color: var(--color6);
+    white-space: pre-wrap;
 }

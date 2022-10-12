@@ -1,5 +1,5 @@
 
-.PHONY: all serve install
+.PHONY: all serve install_deps
 
 all: serve
 
