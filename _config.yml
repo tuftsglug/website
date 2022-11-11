@@ -7,3 +7,5 @@ baseurl:
 source_code: https://github.com/nobodywasishere/tgslug
 
 exclude: []
+
+future: true
