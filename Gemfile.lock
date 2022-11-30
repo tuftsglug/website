@@ -60,6 +60,7 @@ GEM
 
 PLATFORMS
   x86_64-linux
+  x86_64-openbsd
 
 DEPENDENCIES
   jekyll
