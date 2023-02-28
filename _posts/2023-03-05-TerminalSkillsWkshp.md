@@ -6,7 +6,7 @@ evtime: 1p-3p
 evlocation: Room 104, Barnum Hall
 ---
 
-![](https://i.imgur.com/YrCSHwn.png){:height="541px" width="700px"}
+![](https://i.imgur.com/YrCSHwn.png){:width="80%"}
 
 Studying computer science means using with the command line on a daily basis,
 but sometimes it can be hard to understand what it is we’re really doing. If
