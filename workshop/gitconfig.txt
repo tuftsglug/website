@@ -11,12 +11,9 @@
 [init]
     defaultBranch = main
 
-# TODO:
+# The normal "log" command is pretty unreadable, so this alias makes it look nicer
 [alias]
-    logg = log --reflog --graph                            \
-           --pretty=tformat:'%Cred%h %Cgreen%cd            \
-           %C(bold blue)%an%Creset%C(yellow)%d%Creset %s'  \
-           --date=short --all
+    logg = log --reflog --graph --pretty=tformat:'%Cred%h %Cgreen%cd %C(bold blue)%an%Creset%C(yellow)%d%Creset %s' --date=short --all
 
 # micro is a lot more user-friendly. Change it if you prefer a different CLI
 # editor, e.g. emacs or vim
