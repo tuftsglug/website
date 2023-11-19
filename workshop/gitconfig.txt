@@ -1,4 +1,28 @@
-[alias]
-    logg = log --reflog --graph --pretty=tformat:'%Cred%h %Cgreen%cd %C(bold blue)%an%Creset%C(yellow)%d%Creset %s' --date=short --all
+###################################
+### OFFICIAL TUGSLUG .gitconfig ###
+###################################
+
+# GitHub and GitLab require you provide these
+[user]
+    name = Your Name Goes Here
+    email = youremail@domain.com
+
+# This tends to be the default, but just in case
 [init]
     defaultBranch = main
+
+# TODO:
+[alias]
+    logg = log --reflog --graph                            \
+           --pretty=tformat:'%Cred%h %Cgreen%cd            \
+           %C(bold blue)%an%Creset%C(yellow)%d%Creset %s'  \
+           --date=short --all
+
+# micro is a lot more user-friendly. Change it if you prefer a different CLI
+# editor, e.g. emacs or vim
+[core]
+    editor = micro
+
+# Rebasing can get a bit hairy, so stick to merging
+[pull]
+    rebase = false
