@@ -4,7 +4,7 @@ layout: default
 
 ## About
 
-GNU/Linux User Group is an (unofficial) group at [Tufts University](https://www.tufts.edu/) 
+GNU/Linux User Group is an extracurricular club at [Tufts University](https://www.tufts.edu/) 
 dedicated to all things GNU, Linux, BSD, etc. All are welcome, even if you don't use Linux!
 
 
